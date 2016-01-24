@@ -1,8 +1,8 @@
 # ShapesImage
-A library for custom shapes in Andriod ImageView
+A library for custom shapes ImageView in Android.
 
 
-**ShapesImage** is a library for Andrid, which provides custom shaped image views with 40+ pre-defined shapes and n+ custom own shapes.
+**ShapesImage** is a library for Andrid, which provides custom shaped image views with pre-defined shapes and ability to make own shapes from passing Shape drawables or Vector drawables.
 
 ### Highlights of this library
 
@@ -15,7 +15,7 @@ There are many solutions available to achive custom shapes in andriod. The main 
 
 ### Screenshots:
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image]()
 
 ### Demo
 
@@ -41,7 +41,7 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:scaleType="centerCrop"
     android:padding="16dp"
     android:src="@drawable/avatar"
-    app:shape="circle" />
+    **app:shape="circle"** />
 ```
 
 ###### For custom drawable shape:
@@ -56,7 +56,7 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:scaleType="centerCrop"
     android:padding="16dp"
     android:src="@drawable/avatar"
-    app:shapeDrawable="@drawable/custom_shape"/>
+    **app:shapeDrawable="@drawable/custom_shape"**/>
 ```
 
 ### Using through java:
@@ -87,12 +87,17 @@ shapesImage.setShapeDrawable(getResources().getDrawable(R.drawable.custom_shape)
 
 #### Attributes
 
-```xml shape``` to use the pre-defined shapes.
-```xml shapeDrawable``` to use own shape\vector drawable by own.
+*```xml 
+shape
+``` to use the pre-defined shapes.
+*```xml 
+shapeDrawable
+``` to use own shape\vector drawable by own.
 
 
 #### Available shapes
 
+```
 app:shape="circle" or ShapesImage.CIRCLE
 app:shape="rounded" or ShapesImage.ROUNDED
 app:shape="bowl" or ShapesImage.BOWL
@@ -140,7 +145,7 @@ app:shape="bell" or ShapesImage.BELL
 app:shape="battery" or ShapesImage.BATTERY
 app:shape="apple_logo" or ShapesImage.APPLE_LOGO
 app:shape="android" or ShapesImage.ANDROID
-
+```
 
 
 ###### Shape drawable sample for Circle:
@@ -177,4 +182,4 @@ Please see and excute the sample app in this repository.
 
 ### Applications using ShapesImage
 
-Please [ping](mailto:makovkastar@gmail.com) me or send a pull request if you would like to be added here.
+Please [ping](mailto:raj.karthik777@gmail.com) me or send a pull request if you would like to be added here.
