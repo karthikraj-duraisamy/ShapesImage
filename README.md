@@ -76,8 +76,7 @@ ShapesImage shapesImage = (ShapesImage) findViewById(R.id.siListImage);
 
 ```java
 shapesImage.setImageResource(R.drawable.avatar);
-shapesImage.setShapeDrawable(ShapesImage.CIRCLE);
-```
+shapesImage.setShapeDrawable(ShapesImage.CIRCLE);```
 
 ###### For Custom shape:
 
