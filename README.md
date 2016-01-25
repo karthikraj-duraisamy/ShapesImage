@@ -6,7 +6,8 @@ A library for custom shapes ImageView in Android.
 
 ### Highlights of this library
 
-* You can serve any custom shapes through drawables and make your own customized shapes.
+* Highly customizable
+    >You can serve any custom shapes through drawables and make your own customized shapes.
 * 40+ pre-defined shapes can be used by adding one line extra in your *xml* or *java*.
 
 
@@ -15,13 +16,13 @@ There are many solutions available to achive custom shapes in andriod. The main 
 
 ### Screenshots:
 
-![Image](/images/screenshots.jpg)
+![Screenshot](/images/screenshots.jpg)
 
 
 ### How to use
 
 ```gradle
-compile 'net.karthikraj.shapesimage:shapesimage:1.0.0'
+compile 'net.karthikraj.shapesimage:shapesimage:1.0.2'
 ```
 
 Just include the following xml snippet to get the pre-defined circular image view.
@@ -38,10 +39,7 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:scaleType="centerCrop"
     android:padding="16dp"
     android:src="@drawable/avatar"
-    ```
-    **```xml
-    app:shape="circle"
-    ```** />
+    app:shape="circle"/>
 
 
 ###### For custom drawable shape:
@@ -56,7 +54,7 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:scaleType="centerCrop"
     android:padding="16dp"
     android:src="@drawable/avatar"
-    **app:shapeDrawable="@drawable/custom_shape"**/>
+    app:shapeDrawable="@drawable/custom_shape"/>
 ```
 
 ### Using through java:
@@ -69,7 +67,7 @@ Or
 ShapesImage shapesImage = (ShapesImage) findViewById(R.id.siListImage);
 ```
 
-###### For Pre-defined circle shape:
+###### For Pre-defined shape:
 
 ```java
 shapesImage.setImageResource(R.drawable.avatar);
@@ -87,12 +85,10 @@ shapesImage.setShapeDrawable(getResources().getDrawable(R.drawable.custom_shape)
 
 #### Attributes
 
-```xml
-shape
-``` to use the pre-defined shapes.
-```xml
-shapeDrawable
-``` to use own shape\vector drawable by own.
+
+**shape** to use the pre-defined shapes.
+
+**shapeDrawable** to use own shape\vector drawable by own.
 
 
 #### Available shapes
@@ -146,8 +142,8 @@ app:shape="battery" or ShapesImage.BATTERY
 app:shape="apple_logo" or ShapesImage.APPLE_LOGO
 app:shape="android" or ShapesImage.ANDROID
 ```
-![Image](/images/shapes_list.jpg)
-![Image](/images/shapes_list_two.jpg)
+![Shape List](/images/shapes_list.jpg)
+![Shape List two](/images/shapes_list_two.jpg)
 
 ###### Shape drawable sample for Circle:
 
@@ -176,7 +172,7 @@ app:shape="android" or ShapesImage.ANDROID
 
 ### Sample
 
-Please see and excute the sample app in this repository.
+Please see and execute the sample app in this repository.
 
 
 ### Applications using ShapesImage
