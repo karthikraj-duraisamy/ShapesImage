@@ -7,7 +7,9 @@ A library for custom shapes ImageView in Android.
 ### Highlights of this library
 
 * Highly customizable
+
     >You can serve any custom shapes through drawables and make your own customized shapes.
+
 * 40+ pre-defined shapes can be used by adding one line extra in your *xml* or *java*.
 
 
@@ -20,6 +22,8 @@ There are many solutions available to achive custom shapes in andriod. The main 
 
 
 ### How to use
+
+>This library has been pushed to *jcenter* repository. So anyone can use the library by just adding the following line in the project dependencies.
 
 ```gradle
 compile 'net.karthikraj.shapesimage:shapesimage:1.0.2'
@@ -40,6 +44,7 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:padding="16dp"
     android:src="@drawable/avatar"
     app:shape="circle"/>
+    ```
 
 
 ###### For custom drawable shape:
