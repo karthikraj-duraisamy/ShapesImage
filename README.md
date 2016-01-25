@@ -44,7 +44,7 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:padding="16dp"
     android:src="@drawable/avatar"
     app:shape="circle"/>
-    ```
+```
 
 
 
