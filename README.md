@@ -15,11 +15,8 @@ There are many solutions available to achive custom shapes in andriod. The main 
 
 ### Screenshots:
 
-![Image]()
+![Image](/images/screenshots.jpg)
 
-### Demo
-
-[Demo application](https://play.google.com/store/apps/details?id=net.karthikraj.shapesimagesample)
 
 ### How to use
 
@@ -41,8 +38,11 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:scaleType="centerCrop"
     android:padding="16dp"
     android:src="@drawable/avatar"
-    **app:shape="circle"** />
-```
+    ```
+    **```xml
+    app:shape="circle"
+    ```** />
+
 
 ###### For custom drawable shape:
 
@@ -87,10 +87,10 @@ shapesImage.setShapeDrawable(getResources().getDrawable(R.drawable.custom_shape)
 
 #### Attributes
 
-*```xml 
+```xml
 shape
 ``` to use the pre-defined shapes.
-*```xml 
+```xml
 shapeDrawable
 ``` to use own shape\vector drawable by own.
 
@@ -146,7 +146,8 @@ app:shape="battery" or ShapesImage.BATTERY
 app:shape="apple_logo" or ShapesImage.APPLE_LOGO
 app:shape="android" or ShapesImage.ANDROID
 ```
-
+![Image](/images/shapes_list.jpg)
+![Image](/images/shapes_list_two.jpg)
 
 ###### Shape drawable sample for Circle:
 
@@ -160,7 +161,7 @@ app:shape="android" or ShapesImage.ANDROID
 
 ###### Vector drawable sample for Android Robot:
 
-```xml 
+```xml
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:height="100dp"
     android:width="100dp"
@@ -174,8 +175,6 @@ app:shape="android" or ShapesImage.ANDROID
 
 
 ### Sample
-
-You can download the sample app from Google Play Store through the above mentioned link.
 
 Please see and excute the sample app in this repository.
 

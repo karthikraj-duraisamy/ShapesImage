@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.karthikraj.shapesimage.ShapesImage xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/siCustomShape"
+    android:scaleType="centerCrop"
+    android:src="@drawable/cat"
+    app:shapeDrawable="@drawable/custom_shape"/>
