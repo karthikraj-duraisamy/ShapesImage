@@ -43,8 +43,8 @@ Just include the following xml snippet to get the pre-defined circular image vie
     android:scaleType="centerCrop"
     android:padding="16dp"
     android:src="@drawable/avatar"
-    app:shape="circle"/>
-    ```
+    app:shape="circle"/>```
+
 
 
 ###### For custom drawable shape:
@@ -76,7 +76,8 @@ ShapesImage shapesImage = (ShapesImage) findViewById(R.id.siListImage);
 
 ```java
 shapesImage.setImageResource(R.drawable.avatar);
-shapesImage.setShapeDrawable(ShapesImage.CIRCLE);```
+shapesImage.setShapeDrawable(ShapesImage.CIRCLE);
+```
 
 ###### For Custom shape:
 
