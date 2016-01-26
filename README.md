@@ -2,7 +2,7 @@
 A library for custom shapes ImageView in Android.
 
 
-**ShapesImage** is a library for Andrid, which provides custom shaped image views with pre-defined shapes and ability to make own shapes from passing Shape drawables or Vector drawables.
+**ShapesImage** is a library for Andrid, which provides custom shaped image views with pre-defined shapes and ability to make own shapes from passing ShapeDrawable or VectorDrawable.
 
 ### Highlights of this library
 
@@ -13,7 +13,7 @@ A library for custom shapes ImageView in Android.
 * 40+ pre-defined shapes can be used by adding one line extra in your *xml* or *java*.
 
 
-There are many solutions available to achive custom shapes in andriod. The main goal of this library is to provide minimized code and use the shape drawables or vector drawables to make more shapes by own instead of depending on the limitations in shapes.
+There are many solutions available to achive custom shapes in andriod. The main goal of this library is to provide minimized code and use the ShapeDrawable or VectorDrawable to make more shapes by own instead of depending on the limitations in shapes.
 
 
 ### Screenshots:
@@ -29,7 +29,7 @@ There are many solutions available to achive custom shapes in andriod. The main 
 compile 'net.karthikraj.shapesimage:shapesimage:1.0.2'
 ```
 
-Just include the following xml snippet to get the pre-defined circular image view.
+Just include the following xml snippet to get the pre-defined circle image view.
 
 ###### For Pre-defined circle shape:
 
@@ -151,7 +151,7 @@ app:shape="android" or ShapesImage.ANDROID
 ![Shape List](/images/shapes_list.jpg)
 ![Shape List two](/images/shapes_list_two.jpg)
 
-###### Shape drawable sample for Circle:
+###### ShapeDrawable sample for Circle:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -161,7 +161,7 @@ app:shape="android" or ShapesImage.ANDROID
 </shape>
 ```
 
-###### Vector drawable sample for Android Robot:
+###### VectorDrawable sample for Android Robot:
 
 ```xml
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
