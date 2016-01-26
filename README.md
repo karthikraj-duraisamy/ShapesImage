@@ -94,7 +94,7 @@ shapesImage.setShapeDrawable(getResources().getDrawable(R.drawable.custom_shape)
 
 **shape** to use the pre-defined shapes.
 
-**shapeDrawable** to use own shape\vector drawable by own.
+**shapeDrawable** to use own ShapeDrawable\VectorDrawable by own.
 
 
 #### Available shapes
