@@ -1,4 +1,4 @@
-# ShapesImage
+# ShapesImage (Not Maintained Actively)
 A library for custom shapes ImageView in Android.
 
 
