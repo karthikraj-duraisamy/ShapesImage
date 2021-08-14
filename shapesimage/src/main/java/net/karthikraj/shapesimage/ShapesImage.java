@@ -587,8 +587,11 @@ public class ShapesImage extends ImageView {
             if (mMaskDrawable != null) {
                 int sc = cacheCanvas.save();
                 mMaskDrawable.draw(cacheCanvas);
-                cacheCanvas.saveLayer(mBoundsF, mMaskedPaint,
-                        Canvas.HAS_ALPHA_LAYER_SAVE_FLAG | Canvas.FULL_COLOR_LAYER_SAVE_FLAG);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    cacheCanvas.saveLayer(mBoundsF, mMaskedPaint);
+                }else{
+                    cacheCanvas.saveLayer(mBoundsF, mMaskedPaint,Canvas.ALL_SAVE_FLAG);
+                }
                 super.onDraw(cacheCanvas);
                 cacheCanvas.restoreToCount(sc);
             }else {
